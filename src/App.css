@@ -47,13 +47,15 @@ span {
   width: 200px;
   border-radius: 50%;
 }
-.add{
+
+.add {
   margin-bottom: 10px;
 }
-.buttons{
-  margin: -40px;
-  padding: 0;
+
+.p {
+  margin-bottom: 0px;
 }
+
 .cart {
   width: 70px;
   height: 70px;
@@ -143,12 +145,20 @@ button {
     font-size: 20px;
   }
 
+  .cartPage {
+    width: 300px;
+  }
+
   .cart {
-    width: 60px;
-    height: auto;
+    width: 50px;
+    height: 50px;
   }
 
   .imgCart {
     width: 150px;
+  }
+
+  .head {
+    font-size: 15px;
   }
 }

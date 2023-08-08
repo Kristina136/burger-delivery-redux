@@ -30,7 +30,7 @@ const Dish = ({ dish }) => {
     <div className="add">
       <img className="img" src={`./${dish.img}.jpg`} alt="burger" />
       <p>{dish.name}</p>
-      <p>$ {dish.price}</p>
+      <p className="p">$ {dish.price}</p>
       <ChangeQuantity quantity={quantity} setQuantity={setQuantity} />
       <button onClick={add}>Add to cart</button>
     </div>
