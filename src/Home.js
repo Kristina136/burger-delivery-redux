@@ -3,12 +3,10 @@ import "./App.css";
 import Component from "./Filter/Component";
 import Dishes from "./Dishes/Dishes";
 import Cart from "./Cart/Cart";
-import img from "./icon.png";
 import { useSelector } from "react-redux";
 import { getCartItems } from "./redux/cartSlice";
 
 function Home() {
-  const cartItem = useSelector(getCartItems);
   return (
     <div>
       <div className="free">
