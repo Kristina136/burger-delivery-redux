@@ -7,7 +7,6 @@ import swal from 'sweetalert';
 
 
 const Dish =({dish})=>{
-    const { name, price, img } = dish;
     const [quantity, setQuantity]= useState(1);
     const dispatch= useDispatch();
     const items = useSelector(getCartItems);

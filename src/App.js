@@ -4,20 +4,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
-
-
 import "./App.css";
-import Component from "./Filter/Component";
-import Dishes from "./Dishes/Dishes";
-import Cart from "./Cart/Cart";
-import img from "./icon.png";
 import { useSelector } from "react-redux";
-import { getCartItems, getTotalQuantity } from "./redux/cartSlice";
+import { getTotalQuantity } from "./redux/cartSlice";
 import Home from "./Home";
 import CartPage from "./CartPage";
 function App() {
-  const cartItem = useSelector(getCartItems);
   const totalQuantity= useSelector(getTotalQuantity);
   return (
     <Router>
