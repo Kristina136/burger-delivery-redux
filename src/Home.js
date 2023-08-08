@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Component from "./Filter/Component";
 import Dishes from "./Dishes/Dishes";
@@ -23,8 +22,6 @@ function Home() {
             alt="delivery"
           />{" "}
         </h3>
-
-        
       </div>
 
       <div className="app">
