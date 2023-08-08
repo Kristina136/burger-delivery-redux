@@ -47,7 +47,13 @@ span {
   width: 200px;
   border-radius: 50%;
 }
-
+.add{
+  margin-bottom: 10px;
+}
+.buttons{
+  margin: -40px;
+  padding: 0;
+}
 .cart {
   width: 70px;
   height: 70px;
