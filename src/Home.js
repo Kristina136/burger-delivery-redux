@@ -7,7 +7,6 @@ function Home() {
   return (
     <div>
       <div className="free">
-        
           <img
             width="44"
             height="44"
