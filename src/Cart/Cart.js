@@ -1,5 +1,4 @@
 import img from "./icon.png";
-import CartItem from "./CartItem";
 import { useSelector } from "react-redux"
 import { getCartItems, getTotalPrice } from "../redux/cartSlice"
 

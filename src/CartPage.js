@@ -1,6 +1,4 @@
-import img from "./icon.png";
 import { useSelector } from "react-redux"
-
 import CartItem from "./Cart/CartItem";
 import { getCartItems, getTotalPrice } from "./redux/cartSlice";
 import { Link } from "react-router-dom";
