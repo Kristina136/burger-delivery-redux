@@ -3,8 +3,6 @@ import "./App.css";
 import Component from "./Filter/Component";
 import Dishes from "./Dishes/Dishes";
 import Cart from "./Cart/Cart";
-import { useSelector } from "react-redux";
-import { getCartItems } from "./redux/cartSlice";
 
 function Home() {
   return (

@@ -8,7 +8,7 @@ export const slice = createSlice({
   reducers: {
     addItemToCart: (state, action) => {
       const timerId = new Date().getTime();
-   {state.cartItems.push({
+   state.cartItems.push({
           dishId: action.payload.dish.id,
           id: timerId,
           quantity: action.payload.quantity,
@@ -16,7 +16,7 @@ export const slice = createSlice({
           totalPrice: action.payload.quantity * action.payload.dish.price,
         });
         console.log(current(state.cartItems))
-      } 
+      
     },
     updateQuantity: (state, action) => {
       const newCart = [];
