@@ -45,7 +45,8 @@ span {
   padding: 20px;
 }
 .container-dishes{
-  width:50%
+  width:50vw;
+  padding: 100px
 }
 .img {
   width: 500px;
