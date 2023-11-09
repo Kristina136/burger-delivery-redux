@@ -28,7 +28,7 @@ function Home() {
           <Component />
           <Cart />
         </div>
-        <div className="container">
+        <div className="container container-dishes">
           <Dishes />
         </div>
       </div>
