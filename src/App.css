@@ -44,7 +44,9 @@ span {
   background-color: rgba(249, 190, 190, 0.5);
   padding: 20px;
 }
-
+.container-dishes{
+  width:50%
+}
 .img {
   width: 500px;
 }
