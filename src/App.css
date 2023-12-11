@@ -146,6 +146,10 @@ button {
   .free {
     height: 48px;
   }
+  .container-dishes{
+  width:100vw;
+  padding: 0px
+}
   .img {
     width: 350px;
      text-align: center;
