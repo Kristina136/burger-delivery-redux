@@ -50,7 +50,7 @@ span {
 }
 .img {
   width: 500px;
-  text-align: center;
+ 
 }
 
 .imgCart {
@@ -148,6 +148,8 @@ button {
   }
   .img {
     width: 350px;
+     text-align: center;
+  margin:auto;
   }
 
   p,
